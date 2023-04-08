@@ -71,6 +71,13 @@
   color:#fff;
   text-decoration: underline;
 }
+.all-top{
+  position: relative;
+}
+.all-top .item-box-all{
+  position: absolute;
+  bottom: 0;
+}
 /*Best seller*/
 .best-seller{
   background-color: #fff;
@@ -105,7 +112,9 @@
   filter:brightness(90%);
   transition:0.4s all;
 }
-
+.shop-all-new{
+  text-decoration: underline;
+}
 /*experiences*/
 .experiences{
   background-color: #E1DCD6;
