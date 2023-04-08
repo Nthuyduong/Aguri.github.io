@@ -60,7 +60,7 @@ const appRoutes: Routes = [
   imports: [
     BrowserModule,
     HttpClientModule,
-    RouterModule.forRoot(appRoutes, {scrollPositionRestoration: 'enabled'}),
+    RouterModule.forRoot(appRoutes, {scrollPositionRestoration: 'enabled', useHash: true}),
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyDNI_ZWPqvdS6r6gPVO50I4TlYkfkZdXh8'
     }),

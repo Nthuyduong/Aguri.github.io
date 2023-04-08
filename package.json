@@ -1,9 +1,10 @@
 {
-  "name": "group2-sem1-project",
+  "name": "aguri",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "deploy": "ng build --configuration production --base-href https://nthuyduong.github.io/aguri/ && ngh --dir=dist/aguri",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"

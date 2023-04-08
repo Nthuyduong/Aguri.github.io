@@ -157,7 +157,7 @@
 }
 /*about*/
 .about{
-  background-image: url("/assets/img/home/about.png");
+  background-image: url("../dist/aguri/assets/img/home/about.png");
   background-size: cover;
   padding-top:120px;
   padding-bottom:120px;
