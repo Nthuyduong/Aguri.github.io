@@ -20,6 +20,7 @@ import {SubCategoryComponent} from "./pages/sub-category/sub-category.component"
 import {ThankYouComponent} from "./pages/thank-you/thank-you.component";
 import {SearchComponent} from "./pages/search/search.component";
 import {QuickviewComponent} from "./pages/quickview/quickview.component";
+import {TrackingOrderComponent} from "./pages/tracking-order/tracking-order.component";
 
 
 const appRoutes: Routes = [
@@ -37,6 +38,7 @@ const appRoutes: Routes = [
   {path: 'thank-you', component: ThankYouComponent},
   {path: 'search', component: SearchComponent},
   {path: 'quickview', component: QuickviewComponent},
+  {path: 'tracking-order', component: TrackingOrderComponent},
 ]
 
 @NgModule({
@@ -56,6 +58,7 @@ const appRoutes: Routes = [
     ThankYouComponent,
     SearchComponent,
     QuickviewComponent,
+    TrackingOrderComponent,
   ],
   imports: [
     BrowserModule,
