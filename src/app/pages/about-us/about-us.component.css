@@ -1,0 +1,46 @@
+
+.about-us{
+  margin-top: 100px;
+}
+
+/*Dear*/
+.dear-info p{
+  color:#999;
+}
+/*the-brand*/
+.who{
+  position:relative;
+}
+.who .who-left{
+  padding-left:0;
+}
+.who-right{
+  position:absolute;
+  right:0px;
+  top:120px;
+}
+.who-content{
+  padding-top:90px;
+}
+
+/*our-vision*/
+.vision-content{
+  position:relative;
+
+}
+.vision-inner{
+  position:absolute;
+  top: 50%;
+  transform: translateY(-50%);
+
+}
+.vision-inner{
+  padding-left:40px;
+  padding-right:120px;
+}
+
+
+/*our mission*/
+.our-mission-text{
+  padding-top:210px;
+}
