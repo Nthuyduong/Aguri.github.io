@@ -3,54 +3,7 @@
 .new-arrivals{
   padding-top:100px;
 }
-/*Showcase*/
-/*.showcase-title-inner{*/
-/*  position: relative;*/
-/*  animation: mymove 2s;*/
-/*  animation-timing-function: linear;*/
-/*}*/
-/*@keyframes mymove {*/
-/*  from {left: -180px;}*/
-/*  to {left: 0px;}*/
-/*}*/
-/*.showcase-content{*/
-/*  position: relative;*/
-/*}*/
-/*.showcase-main-img{*/
-/*  position: absolute;*/
-/*  right:0px;*/
-/*}*/
-/*.showcase-title{*/
-/*  padding-top:70px;*/
-/*  margin-bottom:40px;*/
-/*}*/
-/*.showcase-img{*/
-/*  position:relative;*/
-/*}*/
-/*.decor-showcase-slide{*/
-/*  position: absolute;*/
-/*  left:165px;*/
-/*  top:61%;*/
-/*}*/
-/*.round-button{*/
-/*  border: 2px solid #fff;*/
-/*  border-radius: 100%;*/
-/*  padding: 12px;*/
-/*  text-align: center;*/
-/*  text-decoration: none;*/
-/*  display: inline-block;*/
-/*  font-size: 16px;*/
-/*}*/
-/*.round-button i{*/
-/*  padding:0px 3px;*/
-/*  color:#fff;*/
-/*}*/
-/*.round-button{*/
-/*  position: relative;*/
-/*  animation: mymove 2s infinite;*/
-/*  animation-timing-function: linear;*/
-
-/*}*/
+/*showcase*/
 .ctg .ctg-inner .ctg-left{
   padding-right:5px !important;
   padding-left:0 !important;
@@ -70,64 +23,31 @@
 .ctg-left-btm .center-btm{
   padding-left:5px;
 }
-
-/*RIGHT*/
-.ctg .ctg-inner .ctg-right{
-  padding-right:0 !important;
-  padding-left:5px !important;
-}
-
-.collec-top{
-  margin-bottom:100px;
-  margin-top:120px;
-}
-.collec-top .right-top-collec{
-  position: relative;
-}
-.collec-top .right-top-collec img{
-  position: absolute;
-  bottom: 0;
-  transform: translateY(100px);
-}
-.collec-btm .right-btm-collec{
-  padding-top:100px;
-}
-.collec-btm{
-  margin-bottom:100px;
-}
-.collec-img img{
-  position: relative;
-}
-.collec-name{
-  position: absolute;
-  color:#fff;
-}
-.collec-name{
-  bottom:25px;
-  left:7%;
-}
-.collec-name-2{
-  bottom:-10%;
-  left:10%;
-}
-.collec-name-3{
-  bottom:30%;
-  left:11%;
-}
-.collec-name-4{
-  bottom:4%;
-  left:9%;
-}
-.collec-img{
+.ctg-img-inner{
   overflow: hidden;
 }
-.collec-img img{
-  object-fit: cover;
+.ctg-img-inner img{
   transition: transform 0.5s ease-out;
-  display: block;
 }
-.collec-img:hover img{
-  transform: scale(1.1);
+.ctg-img-inner:hover img{
+  transform: scale(1.03);
+  filter: brightness(80%);
+}
+.image-ctg{
+  position: relative;
+}
+.image-ctg:hover .name-ctg{
+  opacity:1;
+}
+.image-ctg:hover .name-ctg > a{
+  text-decoration: underline;
+}
+.name-ctg{
+  position: absolute;
+  top:43%;
+  left:30%;
+  color:#fff;
+  opacity:0;
 }
 .right-btm{
   display: flex;
@@ -138,7 +58,11 @@
 .right-btm img{
   max-height: 285px;
 }
-
+/*RIGHT*/
+.ctg .ctg-inner .ctg-right{
+  padding-right:0 !important;
+  padding-left:5px !important;
+}
 /*All jewellery*/
 .item-box-content a{
   color:#fff;

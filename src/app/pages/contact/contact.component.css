@@ -4,16 +4,16 @@
 .banner-tittle{
   position:absolute;
   top:0;
-
 }
 .contact-inner{
   padding-top:50px;
   padding-bottom:50px;
-  margin-top:80px;
+  margin-top:50px;
   margin-bottom:100px;
+  background:#E1DCD6;
 }
 .contact-form{
-  background:#E1DCD6;
+
 }
 .mess-user{
   margin-bottom:60px;
@@ -30,7 +30,7 @@ agm-map {
   height: 480px;
 }
 .mail-info{
- padding-top:175px;
+ padding-top:195px;
   font-weight: 500;
 }
 
