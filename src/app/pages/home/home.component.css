@@ -78,6 +78,9 @@
   position: absolute;
   bottom: 0;
 }
+.box-ring{
+  padding-right:12.5px;
+}
 /*Best seller*/
 .best-seller{
   background-color: #fff;

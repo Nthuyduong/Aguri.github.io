@@ -36,10 +36,13 @@
 }
 .size-title th{
   font-size:14px;
-  font-weight:600;
+  font-weight: 500;
 }
 .ring-size td{
   padding:10px 0px;
+}
+.measure-content{
+  padding-top:40px;
 }
 /*Ask a client advisor*/
 
