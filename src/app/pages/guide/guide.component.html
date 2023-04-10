@@ -80,7 +80,7 @@
       <div class="line my-3"></div>
       <!--Jewellery Carat-->
       <div class="carat-collapse">
-        <a data-bs-toggle="collapse" href="#caratcollapse2" role="button" aria-expanded="false" aria-controls="caratcollapse2">
+        <a class="title-4cs" data-bs-toggle="collapse" href="#caratcollapse2" role="button" aria-expanded="false" aria-controls="caratcollapse2">
           <h5 class="text-center">Jewellery Carat</h5>
         </a>
         <div class="collapse multi-collapse" id="caratcollapse2">
@@ -141,7 +141,7 @@
       <div class="line my-3"></div>
       <!--Jewellery Color-->
       <div class="color-collapse">
-        <a data-bs-toggle="collapse" href="#caratcollapse3" role="button" aria-expanded="false" aria-controls="caratcollapse3">
+        <a class="title-4cs" data-bs-toggle="collapse" href="#caratcollapse3" role="button" aria-expanded="false" aria-controls="caratcollapse3">
           <h5 class="text-center">Jewellery Color</h5>
         </a>
         <div class="collapse multi-collapse" id="caratcollapse3">
@@ -167,7 +167,7 @@
       <div class="line my-3"></div>
       <!--Jewellery Clarity-->
       <div class="clarity-collapse">
-        <a data-bs-toggle="collapse" href="#caratcollapse4" role="button" aria-expanded="false" aria-controls="caratcollapse4">
+        <a class="title-4cs" data-bs-toggle="collapse" href="#caratcollapse4" role="button" aria-expanded="false" aria-controls="caratcollapse4">
           <h5 class="text-center">Jewellery Clarity</h5>
         </a>
         <div class="collapse multi-collapse" id="caratcollapse4">
@@ -192,7 +192,7 @@
       <div class="line my-3"></div>
       <!--Jewellery Shape-->
       <div class="clarity-collapse">
-        <a data-bs-toggle="collapse" href="#caratcollapse5" role="button" aria-expanded="false" aria-controls="caratcollapse5">
+        <a class="title-4cs" data-bs-toggle="collapse" href="#caratcollapse5" role="button" aria-expanded="false" aria-controls="caratcollapse5">
           <h5 class="text-center">Jewellery Shape</h5>
         </a>
         <div class="collapse multi-collapse" id="caratcollapse5">
@@ -244,3 +244,7 @@
           production and genuine materials.</h5>
   </div>
 </div>
+  <!--Back to top-->
+  <div class="to-top" (click)="scrollToTop()" [ngClass]="{ 'show-scrollTop': windowScrolled }">
+    <i class="fa-solid fa-circle-arrow-up fa-2xl"></i>
+  </div>

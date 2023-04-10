@@ -6,4 +6,14 @@ import {Component} from "@angular/core";
   styleUrls: ['./about-us.component.css']
 })
 
-export class AboutUsComponent {}
+export class AboutUsComponent {
+  ngOnInit() {
+    window.addEventListener('scroll', () => {
+      this.windowScrolled = window.pageYOffset !== 0;
+    });
+  }
+  windowScrolled = false;
+  scrollToTop(): void {
+    window.scrollTo(0, 0);
+  }
+}
