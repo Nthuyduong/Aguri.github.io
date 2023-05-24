@@ -1,7 +1,10 @@
 
 .about-us{
   margin-top: 100px;
-}
+}aguri
+.about-aguri{
+
+ }
 
 /*Dear*/
 .dear-info p{
@@ -23,24 +26,39 @@
   padding-top:90px;
 }
 
+.about-image{
+  margin-top:140px;
+}
+.abt-img-inner{
+  padding-right:0px !important;
+}
 /*our-vision*/
-.vision-content{
-  position:relative;
+.vision-section{
+  margin-top: 160px;
+}
+.vision-right{
+  padding-right:0px !important;
+}
+/*.vision-content{*/
+/*  position:relative;*/
 
-}
-.vision-inner{
-  position:absolute;
-  top: 50%;
-  transform: translateY(-50%);
+/*}*/
+/*.vision-inner{*/
+/*  position:absolute;*/
+/*  top: 50%;*/
+/*  transform: translateY(-50%);*/
 
-}
-.vision-inner{
-  padding-left:40px;
-  padding-right:120px;
-}
+/*}*/
+/*.vision-inner{*/
+/*  padding-left:40px;*/
+/*  padding-right:120px;*/
+/*}*/
 
 
 /*our mission*/
-.our-mission-text{
-  padding-top:210px;
+.mision-section{
+  padding-top:160px;
+}
+.mision-left{
+  padding-left:0px !important;
 }
