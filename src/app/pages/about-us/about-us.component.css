@@ -1,11 +1,7 @@
 
-.about-us{
+.about-us {
   margin-top: 100px;
-}aguri
-.about-aguri{
-
- }
-
+}
 /*Dear*/
 .dear-info p{
   color:#999;
@@ -25,12 +21,25 @@
 .who-content{
   padding-top:90px;
 }
-
+.sub-info{
+  padding-left:0px !important;
+}
+.note-first{
+  padding-left:0px !important;
+}
 .about-image{
   margin-top:140px;
 }
 .abt-img-inner{
   padding-right:0px !important;
+}
+.sub-info{
+  position: relative;
+}
+.sub-info-inner{
+  position: absolute;
+  bottom: 0%;
+  width: 100%
 }
 /*our-vision*/
 .vision-section{
