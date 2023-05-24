@@ -71,3 +71,7 @@
 .mision-left{
   padding-left:0px !important;
 }
+.mission-inner{
+  position: absolute;
+  top: 20%;
+}
