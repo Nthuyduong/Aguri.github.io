@@ -55,11 +55,11 @@ h4{
     content: none;
 }
 .progressbar li.active {
-    color: green;
+    color: #6A7CE9;
 }
 .progressbar li.active:before {
-    border-color: green;
+    border-color: #6A7CE9;
 }
 .progressbar li.active + li:after {
-    background-color: green;
+    background-color: #6A7CE9;
 }
