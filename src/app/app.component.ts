@@ -1,6 +1,6 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {HttpClient} from "@angular/common/http";
-import {Router} from "@angular/router";
+import {Router, NavigationEnd} from "@angular/router";
 
 @Component({
   selector: 'app-root',
@@ -8,24 +8,34 @@ import {Router} from "@angular/router";
   styleUrls: ['./app.component.css'],
 
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'group2-sem1-project';
   show:boolean =  false;
   /*THIS FOR SCROLL NAVBAR*/
   constructor (private http: HttpClient, private router: Router) {
-    this.function();
+    // this.function();
   }
-  //Hiden nav when scroll
-  function(){
-    window.onscroll = () => {
-      if (window.pageYOffset > 100){
-        this.show = true;
-      }
-      else{
-        this.show = false;
-      }
-    };
+
+  ngOnInit(){
+    // this.router.events.subscribe((evt) => {
+    //   if (!(evt instanceof NavigationEnd))
+    //   {
+    //     return;
+    //   }
+    //   window.scrollTo(0, 0)
+    // });
   }
+  // //Hiden nav when scroll
+  // function(){
+  //   window.onscroll = () => {
+  //     if (window.pageYOffset > 100){
+  //       this.show = true;
+  //     }
+  //     else{
+  //       this.show = false;
+  //     }
+  //   };
+  // }
 
   // search function
   // searchResult: Data[] = [];

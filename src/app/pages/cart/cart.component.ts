@@ -17,6 +17,7 @@ export class CartComponent implements OnInit {
         .subscribe(() => {
           setTimeout(() => {
             location.reload();
+            console.log('eun');
           }, 1000); // Add a delay of 1 second (1000 milliseconds) before reloading the page
         });
   }
