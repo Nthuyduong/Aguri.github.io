@@ -13,7 +13,7 @@ export class AppComponent implements OnInit {
   show:boolean =  false;
   /*THIS FOR SCROLL NAVBAR*/
   constructor (private http: HttpClient, private router: Router) {
-    // this.function();
+    this.function();
   }
 
   ngOnInit(){
@@ -25,17 +25,17 @@ export class AppComponent implements OnInit {
     //   window.scrollTo(0, 0)
     // });
   }
-  // //Hiden nav when scroll
-  // function(){
-  //   window.onscroll = () => {
-  //     if (window.pageYOffset > 100){
-  //       this.show = true;
-  //     }
-  //     else{
-  //       this.show = false;
-  //     }
-  //   };
-  // }
+  //Hiden nav when scroll
+  function(){
+    window.onscroll = () => {
+      if (window.pageYOffset > 100){
+        this.show = true;
+      }
+      else{
+        this.show = false;
+      }
+    };
+  }
 
   // search function
   // searchResult: Data[] = [];
